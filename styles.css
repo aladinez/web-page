@@ -1,0 +1,88 @@
+
+@font-face {
+	src: url(fonts/Ovo-Regular.ttf);
+   font-family: ovo; 
+}
+
+
+
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline;
+}
+
+li a{
+	list-style-type: none;
+	text-decoration: none;
+}
+
+.header {
+	background: linear-gradient(180deg, #1C1C1C 4.72%, rgba(28, 28, 28, 0.25) 120.74%), linear-gradient(180deg, #1C1C1C 4.72%, rgba(28, 28, 28, 0.25) 120.74%), url("./imgs/background.jpg") ;
+	background-position: center;	
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 699px;
+	
+	
+}
+.nav-bar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	max-width: 1000px;
+	margin:0 auto;
+	margin: 0 auto;
+}
+
+.menu {
+	top: 53px;
+	justify-content: flex-start;
+	float: left;
+}
+.menu li {
+	margin-right: 30px;
+}
+
+.menu a{
+	color: #FFFFFF;
+	font-family: ovo;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;;
+	right: 30px;
+}
+
+.menu li.active {
+	border-bottom: 2px solid white;
+}
+.menu li:hover {
+	border-bottom: 2px solid white;
+}
+
+
+
+.media {
+	float: right;
+}
+
+.media ul{
+	float: right;
+}
+
+.media a{
+	top: 55px;
+}
