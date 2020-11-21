@@ -7,7 +7,7 @@
 
 
 
-body {
+* {
 	padding: 0;
 	margin: 0;
 }
@@ -18,6 +18,7 @@ img {
 
 ul {
 	list-style-type: none;
+
 }
 
 li {
@@ -34,23 +35,25 @@ li a{
 	background-position: center;	
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 699px;
-	
-	
+	height: 699px;	
 }
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
 .nav-bar {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	max-width: 1000px;
-	margin:0 auto;
-	margin: 0 auto;
 }
 
 .menu {
-	top: 53px;
 	justify-content: flex-start;
-	float: left;
+}
+
+.menu ul {
+	margin-top: 53px;
 }
 .menu li {
 	margin-right: 30px;
@@ -62,27 +65,38 @@ li a{
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
-	line-height: 28px;;
 	right: 30px;
 }
 
 .menu li.active {
+	padding-bottom: 6px;
 	border-bottom: 2px solid white;
 }
 .menu li:hover {
+	padding-bottom: 6px;
 	border-bottom: 2px solid white;
 }
 
-
-
-.media {
-	float: right;
-}
-
 .media ul{
-	float: right;
+	margin-top: 44px;
 }
 
 .media a{
-	top: 55px;
+	padding-right: 12px;
+}
+
+.title{
+	max-width: 1100px;
+	margin-top: 137px;
+}
+.title h1{
+	color: #FFFFFF;
+	font-weight: 300;
+	font-family: ovo;
+	max-width: 603px;
+	font-size: 55px;
+}
+.title p{
+	color: #C3C3C3;
+	width: 379px;
 }
